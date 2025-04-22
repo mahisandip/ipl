@@ -12,7 +12,7 @@ api.interceptors.response.use(
     if (error.response && error.response.status === 401) {
       // Token invalid or expired
       window.localStorage.removeItem('adminToken'); 
-      window.location.href = '/login?expired=true';
+      window.location.href = '/ipl/#/login?expired=true';
     }
     return Promise.reject(error);
   }
