@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ipl/static/css/main.ede1078b.css",
-    "main.js": "/ipl/static/js/main.77564751.js",
+    "main.js": "/ipl/static/js/main.a50967ed.js",
     "index.html": "/ipl/index.html",
     "main.ede1078b.css.map": "/ipl/static/css/main.ede1078b.css.map",
-    "main.77564751.js.map": "/ipl/static/js/main.77564751.js.map"
+    "main.a50967ed.js.map": "/ipl/static/js/main.a50967ed.js.map"
   },
   "entrypoints": [
     "static/css/main.ede1078b.css",
-    "static/js/main.77564751.js"
+    "static/js/main.a50967ed.js"
   ]
 }
