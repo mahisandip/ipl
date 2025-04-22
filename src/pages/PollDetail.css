@@ -1,0 +1,109 @@
+.poll-detail {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  font-family: Arial, sans-serif;
+}
+
+.poll-question {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.poll-cutoff {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.poll-options {
+  margin-bottom: 1.5rem;
+}
+
+.poll-option {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+  border-left: 5px solid #007bfc;
+  border-radius: 6px;
+}
+
+.vote-list {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.no-votes {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 0.3rem;
+}
+
+.vote-button {
+  padding: 0.7rem 1.4rem;
+  background-color: #007bfc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.vote-button:hover {
+  background-color: #005bb5;
+}
+
+.poll-error, .poll-loading {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #c00;
+}
+
+
+.home-button:hover {
+  background-color: #1e7e34;
+}
+.top-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-button,
+.copy-link-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.copy-link-button {
+  background-color: #6c63ff;
+}
+
+.copy-link-button:hover {
+  background-color: #5548e0;
+}
+
+.home-button:hover {
+  background-color: #1e7e34;
+}
+
+.copy-feedback {
+  font-size: 0.9rem;
+  color: #007bfc;
+  align-self: center;
+  margin-left: 1rem;
+}
+

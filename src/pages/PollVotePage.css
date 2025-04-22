@@ -1,0 +1,78 @@
+.poll-vote-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.options-list {
+  margin-bottom: 1rem;
+}
+
+.option-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.comment-box {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  resize: vertical;
+}
+
+.vote-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.vote-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  font-size: 1.2rem;
+  color: green;
+  text-align: center;
+}
+
+.home-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #1e7e34;
+}
