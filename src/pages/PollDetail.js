@@ -14,7 +14,7 @@ const PollDetail = () => {
   useEffect(() => {
     const fetchPoll = async () => {
       try {
-        const response = await axios.get(`http://localhost:8080/api/public/poll/${id}`);
+        const response = await axios.get(`http://192.168.10.102:8080/api/public/poll/${id}`);
         setPoll(response.data);
       } catch (err) {
         setError('Failed to fetch poll details.' + err);

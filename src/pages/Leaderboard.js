@@ -11,7 +11,7 @@ const Leaderboard = () => {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api/public/leaderboard');
+        const response = await axios.get('http://192.168.10.102:8080/api/public/leaderboard');
         setLeaders(response.data);
       } catch (err) {
         setError('Failed to fetch leaderboard.' + err.message);

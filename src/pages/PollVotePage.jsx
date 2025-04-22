@@ -16,7 +16,7 @@ const PollVotePage = () => {
   useEffect(() => {
     const fetchPoll = async () => {
       try {
-        const response = await axios.get(`http://localhost:8080/api/public/poll/${id}`);
+        const response = await axios.get(`http://192.168.10.102:8080/api/public/poll/${id}`);
         setPoll(response.data);
       } catch (err) {
         alert('Failed to load poll');
@@ -36,7 +36,7 @@ const PollVotePage = () => {
     }
 
     try {
-      await axios.post(`http://localhost:8080/api/public/poll/${id}/vote`, {
+      await axios.post(`http://192.168.10.102:8080/api/public/poll/${id}/vote`, {
         voter: voterName,
         selectedOption: selectedOption,
         comment,
