@@ -45,7 +45,7 @@ const PollForm = () => {
     if (cutoffAmPm === 'PM' && hour !== 12) hour += 12;
     if (cutoffAmPm === 'AM' && hour === 12) hour = 0;
 
-    return `${cutoffDate} ${hour.toString().padStart(2, '0')}:${cutoffMinute.padStart(2, '0')}:00Z`;
+    return `${cutoffDate}T${hour.toString().padStart(2, '0')}:${cutoffMinute.padStart(2, '0')}:00+08:00`;
   };
 
   const handleSubmit = async (e) => {
@@ -56,7 +56,7 @@ const PollForm = () => {
     try {
       const token = localStorage.getItem('adminToken');
       const cutoffTimestamp = formatCutoffTimestamp();
-
+	  
       const payload = {
         question,
         cutoffTimestamp,
